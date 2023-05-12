@@ -11,7 +11,8 @@ public class MainSet {
 		for (int i = 0; myInt.size() < 5; i++) {
 			Random rand = new Random();
 			int ranNum = rand.nextInt(2, 13);
-			myInt.add(ranNum);
+				myInt.add(ranNum);
+
 		}
 
 		System.out.println("numeri estratti: ");

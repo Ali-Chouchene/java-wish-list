@@ -10,7 +10,7 @@ public class MainSet {
 		Set<Integer> myInt = new HashSet<>();
 		for (int i = 0; myInt.size() < 5; i++) {
 			Random rand = new Random();
-			int ranNum = rand.nextInt(12 + 1 - 2) + 2;
+			int ranNum = rand.nextInt(2, 13);
 			if (!myInt.contains(ranNum)) {
 				myInt.add(ranNum);
 			}
